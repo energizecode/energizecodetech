@@ -136,7 +136,7 @@ async function loadDynamicProjects() {
     col.innerHTML = `
       <div class="project-card shadow-lg">
         <div class="media-wrap">
-          ${mediaHtml}
+          ${mediaHtml}        
         </div>
         <div class="project-overlay">
           <h5 class="mb-2">${project.title}</h5>
