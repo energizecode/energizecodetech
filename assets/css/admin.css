@@ -1,0 +1,211 @@
+/* ====================================
+   Admin Panel - Project Manager Styles
+   ==================================== */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8fafc;
+}
+
+.navbar {
+  background: rgba(17, 17, 17, 0.93);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(240, 173, 78, 0.2);
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: #f0ad4e !important;
+}
+
+/* ====================================
+   Admin Container & Layout
+   ==================================== */
+
+.admin-container {
+  max-width: 900px;
+  margin: 100px auto;
+}
+
+.admin-header {
+  margin-bottom: 2rem;
+}
+
+.admin-header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #222;
+}
+
+/* ====================================
+   Forms & Inputs
+   ==================================== */
+
+.form-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.form-control,
+.form-control-sm {
+  border-radius: 8px;
+  border: 1.5px solid #ddd;
+  padding: 10px 14px;
+}
+
+.form-control:focus,
+.form-control-sm:focus {
+  border-color: #f0ad4e;
+  box-shadow: 0 0 8px rgba(240, 173, 78, 0.3);
+}
+
+/* ====================================
+   Buttons
+   ==================================== */
+
+.btn-primary {
+  background: linear-gradient(90deg, #f0ad4e, #e99b2a);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #e99b2a, #d88a1a);
+}
+
+.btn-secondary {
+  background: #6c757d;
+}
+
+.btn-danger {
+  background: #dc3545;
+}
+
+/* ====================================
+   Projects List & Items
+   ==================================== */
+
+.projects-list {
+  margin-top: 3rem;
+}
+
+.project-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item h5 {
+  margin: 0 0 0.5rem 0;
+  color: #222;
+}
+
+.project-item p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.project-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-actions .btn {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+/* ====================================
+   Helper Text & Alerts
+   ==================================== */
+
+.helper-text {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.3rem;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+/* ====================================
+   Array Input Groups
+   ==================================== */
+
+.array-input-group {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+.array-item {
+  background: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.array-item .remove-item {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.array-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.array-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.array-input .btn {
+  padding: 0.5rem 1rem;
+}
+
+/* ====================================
+   Responsive Design
+   ==================================== */
+
+@media (max-width: 767px) {
+  .project-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-actions {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
