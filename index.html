@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EnergizeCode Tech delivers modern, secure, and scalable digital solutions. We specialize in web development, crypto exchange setup, Web3 copywriting, and brand identity design. Founded by Paul O., empowering businesses worldwide.">
   <title>EnergizeCode Tech | Digital Solutions Agency</title>
 
   <!-- Google Fonts -->
@@ -21,6 +22,34 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Schema Markup for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "EnergizeCode Tech",
+    "url": "https://energizecodetech.netlify.app/",
+    "logo": "https://energizecodetech.netlify.app/assets/images/energizecode-brand-logo.svg",
+    "description": "Digital solutions agency specializing in web development, crypto exchange setup, and Web3 services",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Abeokuta",
+      "addressCountry": "NG"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "telephone": "+234-90-5800-9420",
+      "email": "energizecodetech@gmail.com"
+    },
+    "sameAs": [
+      "https://github.com/EnergizeCode",
+      "https://linkedin.com/in/energizecodetech247",
+      "https://instagram.com/energizecodetech247"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -35,7 +64,7 @@
       <div class="d-flex align-items-center w-100 justify-content-between">
         <div class="d-flex align-items-center flex-shrink-0">
           <a href="index.html" class="me-2">
-            <img src="assets/images/energizecode-brand-logo.svg" alt="Brand Logo" class="brand-logo">
+            <img src="assets/images/energizecode-brand-logo.svg" alt="Brand Logo" class="brand-logo" loading="lazy">
           </a>
         </div>
         <div class="d-flex align-items-center">
@@ -79,7 +108,7 @@
           <div class="about-card d-flex flex-wrap align-items-center">
             <div class="col-md-5 text-center mb-4 mb-md-0">
               <div class="logo-frame mx-auto">
-                <img src="assets/images/energizecode-brand-logo.svg" alt="EnergizeCode Tech logo" class="brand-logo-about">
+              <img src="assets/images/energizecode-brand-logo.svg" alt="EnergizeCode Tech logo" class="brand-logo-about" loading="lazy">
                 <div class="brand-slogan mt-2">
                   <h5 class="fw-bold text-dark mb-1">EnergizeCode Tech</h5>
                   <p class="text-muted small mb-0">Providing digital solutions across the globe</p>
@@ -100,7 +129,7 @@
               </ul>
 
               <div class="founder-card d-flex align-items-center mt-4">
-                <img src="assets/images/portfolio-profile-image.jpg" alt="Founder photo" class="founder-img me-3 shadow-sm">
+                <img src="assets/images/portfolio-profile-image.jpg" alt="Founder photo" class="founder-img me-3 shadow-sm" loading="lazy">
                 <div>
                   <div class="fw-bold">Paul O.</div>
                   <div class="text-muted small">Founder & CEO</div>
@@ -112,6 +141,23 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-5" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3 class="mb-2 fw-bold" style="font-size: 2rem;">Ready to Transform Your Business with Technology?</h3>
+          <p class="lead mb-0">Let's take your digital presence to the next level. Work with our expert team to build secure, scalable solutions that drive results.</p>
+        </div>
+        <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+          <a href="#contact" class="btn btn-warning btn-lg shadow-lg">
+            <i class="fas fa-rocket me-2"></i> Get Started Now
+          </a>
         </div>
       </div>
     </div>
@@ -208,9 +254,23 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="expertise-card p-3 shadow-sm h-100">
+            <div class="mb-2"><i class="fab fa-laravel fa-2x text-danger"></i></div>
+            <h6 class="fw-bold">Laravel Framework</h6>
+            <p class="small mb-0">Modern PHP framework for building elegant, secure, and maintainable web applications with rapid development.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="expertise-card p-3 shadow-sm h-100">
             <div class="mb-2"><i class="fas fa-database fa-2x text-success"></i></div>
-            <h6 class="fw-bold">MySQL Database</h6>
-            <p class="small mb-0">Efficient data modeling, optimization, and management for reliable application performance.</p>
+            <h6 class="fw-bold">MySQL & PostgreSQL</h6>
+            <p class="small mb-0">Advanced data modeling, optimization, and management across relational database systems for reliable application performance.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="expertise-card p-3 shadow-sm h-100">
+            <div class="mb-2"><i class="fas fa-search fa-2x text-warning"></i></div>
+            <h6 class="fw-bold">SEO Optimization</h6>
+            <p class="small mb-0">Search engine optimization, meta tags, site structure, and content strategy for improved online visibility and rankings.</p>
           </div>
         </div>
       </div>
@@ -370,6 +430,32 @@
           </div>
         </div>
 
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="project-card shadow-lg">
+            <div class="media-wrap">
+              <img class="project-preview" src="assets/video/Authentication-system-preview-vid.gif" alt="Authentication System preview" loading="lazy">
+            </div>
+            <div class="project-card-header">Registration & Login System</div>
+            
+            <div class="project-overlay">
+              <h5 class="mb-2">Registration & Login System</h5>
+              <p class="small mb-3">Secure registration and login interface with validation, password handling, and session management.</p>
+              <div class="d-flex gap-2">
+                <button class="btn btn-warning btn-sm view-project"
+                  data-title="Registration & Login System"
+                  data-description="A clean authentication system demonstrating user signup, login, and session security."
+                  data-features='["User registration","Login & logout","Form validation","Session handling"]'
+                  data-tech='["HTML","CSS","JavaScript"]'
+                  data-challenges='["Input validation","Security","State management"]'
+                  data-video="assets/video/Authentication-system-full-vid.mp4"
+                >View Project</button>
+                <a href="https://premium-secure-authentication-system.netlify.app" target="_blank" class="btn btn-outline-light btn-sm">Visit Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
           <div class="project-card shadow-lg">
             <div class="media-wrap">
@@ -389,7 +475,7 @@
                   data-challenges='["State management","Payment flow"]'
                   data-video="assets/video/e-commerce-full-vid.mp4"
                 >View Project</button>
-                <a href="https://marygoldhairs.is-best.net" target="_blank" class="btn btn-outline-light btn-sm">Visit Website</a>
+                <a href="https://marygoldhairline.infinityfreeapp.com" target="_blank" class="btn btn-outline-light btn-sm">Visit Website</a>
               </div>
             </div>
           </div>
@@ -421,30 +507,6 @@
         </div>
 
         
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
-          <div class="project-card shadow-lg">
-            <div class="media-wrap">
-              <img class="project-preview" src="assets/video/Authentication-system-preview-vid.gif" alt="Authentication System preview" loading="lazy">
-            </div>
-            <div class="project-card-header">Registration & Login System</div>
-            
-            <div class="project-overlay">
-              <h5 class="mb-2">Registration & Login System</h5>
-              <p class="small mb-3">Secure registration and login interface with validation, password handling, and session management.</p>
-              <div class="d-flex gap-2">
-                <button class="btn btn-warning btn-sm view-project"
-                  data-title="Registration & Login System"
-                  data-description="A clean authentication system demonstrating user signup, login, and session security."
-                  data-features='["User registration","Login & logout","Form validation","Session handling"]'
-                  data-tech='["HTML","CSS","JavaScript"]'
-                  data-challenges='["Input validation","Security","State management"]'
-                  data-video="assets/video/Authentication-system-full-vid.mp4"
-                >View Project</button>
-                <a href="https://premium-secure-authentication-system.netlify.app" target="_blank" class="btn btn-outline-light btn-sm">Visit Website</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
   <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
           <div class="project-card shadow-lg">
@@ -460,7 +522,7 @@
                   data-title="VTU Recharge Portal"
                   data-description="A web portal allowing users to purchase airtime and data across various networks seamlessly."
                   data-features='["Airtime purchase","Data plans","Payment integration"]'
-                  data-tech='[CSS","JavaScript","MYSQL","PHP","Bootstrap","Paystack"]'
+                  data-tech='["CSS","JavaScript","MYSQL","PHP","Bootstrap","Paystack"]'
                   data-challenges='["Payment security","API rate limits"]'
                   data-video="assets/video/vtu-full-vid.mp4"
                 >View Project</button>
@@ -644,7 +706,7 @@
 
         <!-- Brand & About -->
         <div class="col-md-4">
-          <img src="assets/images/energizecode-brand-logo.svg" alt="Brand Logo" class="footer-logo mb-3">
+          <img src="assets/images/energizecode-brand-logo.svg" alt="Brand Logo" class="footer-logo mb-3" loading="lazy">
           <h5 class="fw-bold">EnergizeCode Tech</h5>
           <p class="small">
             Empowering businesses with modern, secure, and scalable digital solutions.
@@ -680,7 +742,7 @@
             <a href="https://instagram.com/energizecodetech247" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             <a href="https://youtube.com/@energizecode" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
             <a href="https://tiktok.com/@energizecode" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-            <!-- <a href="https://linkedin.com/company/energizecode" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
+            <a href="https://linkedin.com/in/energizecodetech247" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/energizeCode" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
             <a href="https://wa.me/2349058009420" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
             <a href="mailto:energizecodetech@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
