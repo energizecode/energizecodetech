@@ -1,6 +1,4 @@
-/* ====================================
-   Admin Panel - Project Manager Styles
-   ==================================== */
+/*Admin Panel - Project Manager Styles*/
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -19,9 +17,7 @@ body {
   color: #f0ad4e !important;
 }
 
-/* ====================================
-   Admin Container & Layout
-   ==================================== */
+/*Admin Container & Layout*/
 
 .admin-container {
   max-width: 900px;
@@ -37,9 +33,7 @@ body {
   color: #222;
 }
 
-/* ====================================
-   Forms & Inputs
-   ==================================== */
+/*Forms & Inputs*/
 
 .form-card {
   background: #fff;
@@ -72,9 +66,7 @@ body {
   box-shadow: 0 0 8px rgba(240, 173, 78, 0.3);
 }
 
-/* ====================================
-   Buttons
-   ==================================== */
+/*Buttons*/
 
 .btn-primary {
   background: linear-gradient(90deg, #f0ad4e, #e99b2a);
@@ -95,9 +87,7 @@ body {
   background: #dc3545;
 }
 
-/* ====================================
-   Projects List & Items
-   ==================================== */
+/*Projects List & Items*/
 
 .projects-list {
   margin-top: 3rem;
@@ -135,9 +125,7 @@ body {
   font-size: 0.85rem;
 }
 
-/* ====================================
-   Helper Text & Alerts
-   ==================================== */
+/*Helper Text & Alerts*/
 
 .helper-text {
   font-size: 0.85rem;
@@ -149,9 +137,7 @@ body {
   border-radius: 8px;
 }
 
-/* ====================================
-   Array Input Groups
-   ==================================== */
+/*Array Input Groups*/
 
 .array-input-group {
   background: #f8fafc;
