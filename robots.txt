@@ -1,0 +1,22 @@
+# Robots.txt for EnergizeCode Tech Portfolio
+# Generated 2026-06-27
+
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+# Prevent indexing of admin files
+Disallow: /assets/js/admin.js
+Disallow: /assets/css/admin.css
+
+# Allow all search engines to index main content
+Allow: /index.html
+Allow: /portfolio.html
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://energizecodetech.netlify.app/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+Request-rate: 30/60

@@ -3,11 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paul O. | Personal Portfolio & Resume</title>
+  <meta name="description" content="Paul O. - Full-Stack Developer, Web3 Specialist, and Tech Entrepreneur. View professional portfolio, featured web projects, resume, and contact information. Founder of EnergizeCode Tech.">
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Paul O." />
+  <meta name="keywords" content="full-stack developer, web3 specialist, tech entrepreneur, Paul O, portfolio, web projects, Nigeria" />
+  <title>Paul O. | Full-Stack Developer, Web3 Specialist & Tech Entrepreneur</title>
+  <link rel="canonical" href="https://energizecodetech.netlify.app/portfolio.html" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://energizecodetech.netlify.app/portfolio.html" />
+  <meta property="og:title" content="Paul O. | Full-Stack Developer & Web3 Specialist" />
+  <meta property="og:description" content="Explore Paul O.'s professional portfolio. Full-stack developer with expertise in web development, Web3, blockchain, and modern digital solutions." />
+  <meta property="og:image" content="https://energizecodetech.netlify.app/assets/images/portfolio-profile-image.jpg" />
+  <meta property="og:image:alt" content="Paul O. profile photo" />
+  <meta property="profile:first_name" content="Paul" />
+  <meta property="profile:last_name" content="O." />
+  <meta property="profile:username" content="energizecodetech" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://energizecodetech.netlify.app/portfolio.html" />
+  <meta name="twitter:title" content="Paul O. - Full-Stack Developer & Web3 Specialist" />
+  <meta name="twitter:description" content="Founder of EnergizeCode Tech. Full-stack developer with expertise in web development, Web3, blockchain integration, and payment systems." />
+  <meta name="twitter:image" content="https://energizecodetech.netlify.app/assets/images/portfolio-profile-image.jpg" />
+  <meta name="twitter:creator" content="@energizecodetech" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/images/energizecode-brand-logo.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/images/energizecode-brand-logo.svg" />
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#f0ad4e" />
+  
+  <!-- Person Schema (Structured Data) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paul O.",
+    "url": "https://energizecodetech.netlify.app/portfolio.html",
+    "image": "https://energizecodetech.netlify.app/assets/images/portfolio-profile-image.jpg",
+    "description": "Full-Stack Developer, Web3 Specialist, and Founder of EnergizeCode Tech",
+    "jobTitle": "Full-Stack Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "EnergizeCode Tech",
+      "url": "https://energizecodetech.netlify.app/"
+    },
+    "sameAs": [
+      "https://github.com/EnergizeCode",
+      "https://linkedin.com/in/energizecodetech247",
+      "https://twitter.com/energizecodetech",
+      "https://instagram.com/energizecodetech"
+    ],
+    "email": "energizecodetech@gmail.com",
+    "telephone": "+2349058009420",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Abeokuta",
+      "addressCountry": "NG"
+    }
+  }
+  </script>
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts with Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 
+  <!-- DNS Prefetch for CDNs -->
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+  
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
  
@@ -36,8 +106,8 @@
     <div class="container-fluid px-lg-5 px-3 position-relative">
       <div class="d-flex align-items-center w-100 justify-content-between">
         <div class="d-flex align-items-center flex-shrink-0">
-          <a href="index.html" class="me-2">
-            <img src="assets/images/energizecode-brand-logo.svg" alt="Brand Logo" class="brand-logo">
+          <a href="index.html" class="me-2" title="Back to EnergizeCode Tech">
+            <img src="assets/images/energizecode-brand-logo.svg" alt="EnergizeCode Tech Brand Logo" class="brand-logo" loading="lazy" width="40" height="40">
           </a>
         </div>
         <div class="d-flex align-items-center">
@@ -64,7 +134,7 @@
       <a href="index.html" class="back-to-home">
         <i class="fas fa-arrow-left"></i> Back to EnergizeCode Tech
       </a>
-      <img src="assets/images/portfolio-profile-image.jpg" alt="Paul O." class="portfolio-img animate__animated animate__fadeInDown">
+      <img src="assets/images/portfolio-profile-image.jpg" alt="Paul O. professional portfolio photo" class="portfolio-img animate__animated animate__fadeInDown" width="250" height="250" loading="lazy">
       <h1 class="portfolio-title animate__animated animate__fadeInUp">Paul O.</h1>
       <p class="portfolio-subtitle animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         Full-Stack Developer | Web3 Specialist | Tech Entrepreneur
@@ -109,7 +179,7 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up">
           <div class="project-card shadow-lg">
             <div class="media-wrap">
-              <img class="project-preview" src="assets/video/business-website-preview-vid.gif" alt="Business Website preview" loading="lazy">
+              <img class="project-preview" src="assets/video/business-website-preview-vid.gif" alt="Business Website project - responsive company site with services and contact form" loading="lazy" width="400" height="300">
             </div>
             <div class="project-card-header">Business Website</div>
             <div class="project-overlay">
@@ -134,7 +204,7 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
           <div class="project-card shadow-lg">
             <div class="media-wrap">
-              <img class="project-preview" src="assets/video/e-commerce-preview-vid.gif" alt="E-commerce Demo preview" loading="lazy">
+              <img class="project-preview" src="assets/video/e-commerce-preview-vid.gif" alt="E-commerce Demo project - shopping cart and secure checkout" loading="lazy" width="400" height="300">
             </div>
             <div class="project-card-header">E‑commerce Demo</div>
             <div class="project-overlay">
