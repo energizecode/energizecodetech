@@ -12,6 +12,11 @@ Disallow: /assets/css/admin.css
 # Allow all search engines to index main content
 Allow: /index.html
 Allow: /portfolio.html
+Allow: /about.html
+Allow: /services.html
+Allow: /contact.html
+Allow: /privacy-policy.html
+Allow: /terms-of-service.html
 Allow: /assets/
 
 # Sitemap location
